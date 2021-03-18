@@ -3,23 +3,30 @@
     <head>
         <title>Formulario de Contacto</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo.css">
     </head>
     <body> 
+        <h1>FORMULARIO DE CONTACTO</h1>
         <form method="POST" action="">
+            <br/>
             <label for="Nombre">Ingrese su Nombre:</label>
-             <input type="text" name="nombre" id="nombre" maxlength="30" placeholder="Escriba su nombre">
+            <input type="text" name="nombre" id="nombre" maxlength="30" placeholder="Escriba su nombre">
+            <br/>
 
-             <br/>
-             <label for="subject">Asunto:</label>
-             <input type="text" name="subject" id="subject" maxlength="30" placeholder="Asunto del documento">
-             <br/>
+            <br/>
+            <label for="subject">Asunto:</label>
+            <input type="text" name="subject" id="subject" maxlength="30" placeholder="Asunto del documento">
+            <br/>
 
+            <br/> 
              <label for="email">Correo Electronico:</label>
              <input type="email" name="email" maxlength="30" placeholder="Correo">
              <br/>
-
+              
+             <br/>
              <label for="message">Mensaje:</label>
             <textarea name="message" id="message" cols="40" rows="5"></textarea>
+             <br/>
 
              <hr/>
              <input type="submit" name="submit" value="Enviar">

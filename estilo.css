@@ -1,0 +1,25 @@
+body{
+    background-color: lightgray;
+}
+form{
+    width: 40%;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+
+}
+label{
+    font-size: 20px;
+    display: block;
+    width: 100%;
+}
+input, textarea{
+    margin-bottom: 20px;
+    width: 70%;
+    padding: 5px;
+}
+h1{
+    color: red;
+    text-align: center;
+}
